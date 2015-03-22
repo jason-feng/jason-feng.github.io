@@ -1,0 +1,14 @@
+---
+title: Tiny Search Engine
+subtitle: CS50
+layout: default
+modal-id: 1
+date: 2014-05-18
+img: tiny-search-engine.png
+thumbnail: tiny-search-engine.png
+alt: image-alt
+project-date: May 2014
+client: CS50 Software Design and Implementation
+category: Web Development
+description: A search engine built in C to search through archived pages of Dartmouth’s CS website. The program is split into a web crawler, an indexer, and a query engine.
+---
