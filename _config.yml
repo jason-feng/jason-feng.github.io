@@ -8,9 +8,9 @@ description: "The personal website of Jason Feng. Visit here to check out his pa
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
+  primary: df6161
   secondary: fec503
-  secondary-dark: 333
+  secondary-dark: 5c5c5c
 
 # Team names, titles and social links
 people:
@@ -31,6 +31,12 @@ social:
     url: http://twitter.com/jasonfeng_
   - title: github
     url: http://github.com/jason-feng
+  - title: instagram
+    url: https://instagram.com/jasonfeng_/
+  - title: flickr
+    url: https://flic.kr/ps/2Wz3PN
+  - title: linkedin
+    url: https://linkedin.com/in/jasonfeng21
 
 # Postal address (add as many lines as necessary)
 address:
