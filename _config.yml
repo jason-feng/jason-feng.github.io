@@ -34,3 +34,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Google Analytics
+ga: 'UA-61173271-1'
