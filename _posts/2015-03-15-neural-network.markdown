@@ -1,8 +1,7 @@
 ---
 title: Determining Restaurant Success
 subtitle: Yelp Neural Network
-layout: default
-modal-id: 5
+layout: project
 date: 2015-03-15
 img: yelp.png
 thumbnail: yelp.png

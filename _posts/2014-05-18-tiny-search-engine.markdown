@@ -1,8 +1,7 @@
 ---
 title: Tiny Search Engine
 subtitle: CS50
-layout: article
-modal-id: 1
+layout: project
 date: 2014-05-18
 img: tiny-search-engine.png
 thumbnail: tiny-search-engine.png

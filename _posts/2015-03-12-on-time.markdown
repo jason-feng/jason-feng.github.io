@@ -1,8 +1,7 @@
 ---
 title: OnTime
 subtitle: Event Organizer
-layout: default
-modal-id: 4
+layout: project
 date: 2015-03-12
 img: on-time.png
 thumbnail: on-time.png

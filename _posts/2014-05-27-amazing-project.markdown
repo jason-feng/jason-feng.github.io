@@ -1,8 +1,7 @@
 ---
 title: AmazingProject
 subtitle: Maze Search Client-server application
-layout: default
-modal-id: 2
+layout: project
 date: 2014-05-27
 img: amazing-project.png
 thumbnail: amazing-project.png

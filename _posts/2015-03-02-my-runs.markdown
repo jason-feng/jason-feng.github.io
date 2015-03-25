@@ -1,8 +1,7 @@
 ---
 title: MyRuns
 subtitle: Dynamic fitness tracker
-layout: default
-modal-id: 3
+layout: project
 date: 2015-03-02
 img: activity-tracker.png
 thumbnail: activity-tracker.png
