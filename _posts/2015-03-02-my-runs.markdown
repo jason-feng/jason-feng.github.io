@@ -9,7 +9,7 @@ thumbnail: activity-tracker.png
 alt: image-alt
 project-date: March 2015
 client: CS65 Smartphone Programming
-category: Coursework
+category: portfolio
 description: Dynamic fitness tracker that tracks your activity type automatically and maps out your activity routes. You have the option to manually or automatically add exercise entries. The automatic entries utilize machine learning classifers to detect activity type. Location tracking in the background is used to plot the route of your activity. All of your data is stored locally in a SQLlite database and automatically uploaded and synchorized with a google cloud server.
 
 ---
