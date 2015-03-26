@@ -1,6 +1,7 @@
 ---
 title: Determining Restaurant Success
 subtitle: Yelp Neural Network
+type: Python Application / Academic Paper
 layout: project
 date: 2015-03-15
 img: yelp.png

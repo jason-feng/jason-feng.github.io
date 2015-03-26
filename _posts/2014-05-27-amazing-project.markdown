@@ -1,6 +1,7 @@
 ---
 title: AmazingProject
-subtitle: Maze Search Client-server application
+subtitle: Maze Search
+type: Client-server Application
 layout: project
 date: 2014-05-27
 img: amazing-project.png

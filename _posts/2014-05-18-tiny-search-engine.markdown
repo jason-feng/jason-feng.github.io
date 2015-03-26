@@ -1,6 +1,7 @@
 ---
 title: Tiny Search Engine
 subtitle: CS50
+type: CLI Application
 layout: project
 date: 2014-05-18
 img: tiny-search-engine.png
