@@ -485,7 +485,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0 50px;
     text-align: left;
 }
 
@@ -573,7 +573,7 @@ section h3.section-subheading {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 0 20px 20px 0px;
         text-align: right;
     }
 
@@ -604,7 +604,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
+        padding: 0 20px 20px 10px;
     }
 
     .timeline>li .timeline-image {
@@ -631,7 +631,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 0 20px 20px 30px;
     }
 
     .timeline>li .timeline-image {
