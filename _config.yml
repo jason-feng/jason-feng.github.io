@@ -13,6 +13,8 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: envelope
+    url: mailto:jason21feng@gmail.com
   - title: github
     url: http://github.com/jason-feng
   - title: linkedin
@@ -24,7 +26,6 @@ social:
   - title: flickr
     url: https://flic.kr/ps/2Wz3PN
 
-
 # Postal address (add as many lines as necessary)
 address:
   - line: Hinman Box 0160
@@ -34,6 +35,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Google Analytics
-ga: 'UA-61173271-1'
