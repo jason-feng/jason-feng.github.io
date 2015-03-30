@@ -675,9 +675,10 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/lost-coast.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 1500px;
 }
 
 section#contact .section-heading {
@@ -702,8 +703,13 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.contact }};
     box-shadow: none;
+}
+
+section#contact .contact-btn {
+    border-color: #{{ site.color.contact }};
+    background-color: #{{ site.color.contact }};
 }
 
 section#contact::-webkit-input-placeholder {
