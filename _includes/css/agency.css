@@ -4,9 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: Calibre;
+    src: url(../../fonts/calibre_font) format("opentype");
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../../fonts//Proxima%20Nova) format("opentype");
+}
+
+@font-face {
+    font-family: Baskerville;
+    src: url(../../fonts/Baskerville) format("truetype");
+}
+
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova, "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -20,11 +35,11 @@ body {
 
 p {
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 22px;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 a,
@@ -53,7 +68,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -72,7 +87,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -123,7 +138,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -210,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     padding-top: 10px;
@@ -288,7 +303,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif", "Helvetica Neue",Helvetica, sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -297,7 +312,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica, sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -311,7 +326,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica, sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -320,7 +335,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Helvetica Neue",Helvetica, sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -522,26 +537,6 @@ section h3.section-subheading {
     line-height: 14px;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
 /*.timeline>li:last-child {
     margin-bottom: 0;
 }*/
@@ -562,7 +557,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 0%;
     }
 
     .timeline>li {
@@ -571,14 +566,14 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 0px;
-        text-align: right;
+        float: right;
+        width: 50%;
+        padding: 0 0px 20px 0px;
+        text-align: left;
     }
 
     .timeline>li .timeline-image {
-        left: 50%;
+        left: 0%;
         width: 300px;
         height: 200px;
         margin-left: -50px;
@@ -590,11 +585,6 @@ section h3.section-subheading {
         line-height: 18px;
     }
 
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
 }
 
 @media(min-width:992px) {
@@ -618,10 +608,6 @@ section h3.section-subheading {
         font-size: 18px;
         line-height: 26px;
     }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
 }
 
 @media(min-width:1200px) {
@@ -631,21 +617,17 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 30px;
+        padding: 0 0px 20px 30px;
     }
 
     .timeline>li .timeline-image {
-        width: 600px;
-        height: 400px;
-        margin-left: -85px;
+        width: 500px;
+        height: 350px;
+        margin-left: 0px;
     }
 
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
     }
 }
 
@@ -714,28 +696,28 @@ section#contact .contact-btn {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -752,7 +734,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
     float: left;
 }
@@ -761,7 +743,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
     float: right;
 }
@@ -889,4 +871,30 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.blog .post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.blog .post-content {
+    margin-bottom: 25px;
+}
+
+.blog .h2 {
+    font-size: 32px;
+}
+
+.blog .h3 {
+    font-size: 26px;
+}
+
+.blog .h4 {
+    font-size: 20px;
 }
