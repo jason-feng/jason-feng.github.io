@@ -313,10 +313,29 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .social-networks {
+    height: 175px
+}
+
+header ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 275px;
+        padding-bottom: 75px;
     }
 
     header .intro-text .intro-lead-in {
