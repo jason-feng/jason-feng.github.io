@@ -586,6 +586,15 @@ section h3.section-subheading {
         text-align: left;
     }
 
+    .timeline>li .timeline-logo img{
+        width: 120px;
+        margin: auto;
+    }
+
+    .image-large {
+        width: 60px !important;
+    }
+
     .timeline>li .timeline-image {
         left: 0%;
         width: 300px;
