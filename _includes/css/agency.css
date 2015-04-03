@@ -370,8 +370,25 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
+    font-weight: 400;
+}
+
+section h3.section-subheading.sub {
+    margin-bottom: 25px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+section h4.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
     font-weight: 400;
 }
 
