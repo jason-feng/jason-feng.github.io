@@ -332,6 +332,19 @@ header ul.social-buttons li a {
     transition: all .3s;
 }
 
+header .video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header .video video {
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 275px;
@@ -385,7 +398,9 @@ section h3.section-subheading.sub {
 }
 
 section h4.section-subheading {
+    margin: auto;
     margin-bottom: 75px;
+    max-width: 500px;
     text-transform: none;
     font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
