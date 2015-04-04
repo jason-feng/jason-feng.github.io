@@ -67,6 +67,10 @@ h6 {
     font-weight: 700;
 }
 
+li {
+    font-size: 14px;
+}
+
 .img-centered {
     margin: 0 auto;
 }

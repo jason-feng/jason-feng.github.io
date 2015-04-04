@@ -32,8 +32,9 @@
             {% endif %}
           </ul>
           <div class= "post">
-          {{ content }}
+            {{ content }}
           </div>
+          {% if page.customjs %}
           <div class="pdf">
             <div class="canvas-buttons">
               <button id="prev">Previous</button>
@@ -42,14 +43,13 @@
               <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
             </div>
             <canvas id="the-canvas"  style="border:1px solid black;"/>
-             {% if page.customjs %}
-               {% for js in page.customjs %}
-               <script async type="text/javascript" src="{{ js }}"></script>
-               {% endfor %}
-             {% endif %}
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
+            {% for js in page.customjs %}
+            <script async type="text/javascript" src="{{ js }}"></script>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
