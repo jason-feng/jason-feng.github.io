@@ -24,15 +24,21 @@
               <strong>{{ page.project-date }}
               </strong>
             </li>
+            {% if page.mockup %}
+            <li>Mockup:
+              <strong><a href={{ page.mockup }}>{{ page.title }} Mockup</a>
+              </strong>
+            </li>
+            {% endif %}
             {% if page.source %}
             <li>Source:
-              <strong><a href={{ page.source }}>{{ page.title }}</a>
+              <strong><a href={{ page.source }}>{{ page.title }} Github Repo</a>
               </strong>
             </li>
             {% endif %}
             {% if page.link %}
             <li>Link:
-              <strong><a href={{ page.source }}>{{ page.title }}</a>
+              <strong><a href={{ page.source }}>{{ page.title }} Website</a>
               </strong>
             </li>
             {% endif %}
