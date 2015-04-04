@@ -345,6 +345,17 @@ header .video video {
     background-size: cover;
 }
 
+header .intro-image {
+    margin-bottom: 10px;
+}
+
+header .intro-image img {
+    width: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 275px;
