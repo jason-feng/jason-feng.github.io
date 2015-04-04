@@ -49,7 +49,7 @@ Class name automatically added to element */
 /* Explicitly set height/width of each list item */
 .simply-scroll .simply-scroll-list li {
         float: left; /* Horizontal scroll only */
-        width: 290px;
+        width: 200px;
         height: 200px;
 }
 
