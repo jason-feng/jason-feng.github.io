@@ -30,6 +30,12 @@
               </strong>
             </li>
             {% endif %}
+            {% if page.link %}
+            <li>Link:
+              <strong><a href={{ page.source }}>{{ page.title }}</a>
+              </strong>
+            </li>
+            {% endif %}
           </ul>
           <div class= "post">
             {{ content }}

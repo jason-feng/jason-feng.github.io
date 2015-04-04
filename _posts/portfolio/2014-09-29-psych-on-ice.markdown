@@ -9,7 +9,7 @@ thumbnail: psych-on-ice/introduction.png
 alt: image-alt
 project-date: September 2014
 client: National Space Biomedical Research Institute
-source:
+link: http://virtual-space-station.herokuapp.com/
 category: portfolio
 ---
 Long duration spaceflight can challenge any individual’s psychological well-being. Factors such as confinement, Sleep loss, and monotony can combine to worsen interpersonal tensions or even lead to frank depression. Conflicts can arise with ground control with a resulting loss of trust and teamwork. A chronic dispute between or among crew members can destroy team functioning and lead to errors or lack of situational awareness. Computer-based behavioral health countermeasures, such as the VSS, can provide an autonomous and confidential way for astronauts to address psychological and interpersonal issues.
