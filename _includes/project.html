@@ -8,19 +8,32 @@
           <img src="/img/portfolio/{{ page.img }}" class="modal-img img-responsive img-centered">
           <p>{{ page.description }}</p>
           <ul class="list-inline item-details">
+          {% if page.client %}
             <li>Client:
-              <strong>{{ page.client }}</a>
+              <strong>{{ page.client }}
               </strong>
             </li>
+          {% endif %}
+          {% if page.class %}
+            <li>Class:
+              <strong>{{ page.class }}
+              </strong>
+            </li>
+          {% endif %}
             <li>Date:
-              <strong>{{ page.project-date }}</a>
+              <strong>{{ page.project-date }}
               </strong>
             </li>
-            <li>Service:
-              <strong>{{ page.category }}</a>
+            {% if page.source %}
+            <li>Source:
+              <strong><a href={{ page.source }}>{{ page.title }}</a>
               </strong>
             </li>
+          {% endif %}
           </ul>
+          <div class= "post">
+          {{ content}}
+          </div>
         </div>
       </div>
     </div>
