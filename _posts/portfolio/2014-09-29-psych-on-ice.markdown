@@ -1,7 +1,7 @@
 ---
 title: Psych On Ice
 subtitle: DALI Lab Fall 2015
-type: Weh Application
+type: Web Application
 layout: project
 date: 2014-09-29
 img: psych-on-ice/video.png

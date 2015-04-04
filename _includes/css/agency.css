@@ -286,7 +286,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(../img/afternoon_san_francisco_dark.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/afternoon_san_francisco_dark.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -318,7 +318,7 @@ header .intro-text .intro-heading {
 }
 
 header .social-networks {
-    height: 175px
+    height: 75px
 }
 
 header ul.social-buttons li a {
@@ -362,15 +362,13 @@ header .intro-image img {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 275px;
         padding-bottom: 75px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica, sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-size: 24px;
+        font-style: normal;
         line-height: 40px;
     }
 
@@ -381,6 +379,7 @@ header .intro-image img {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        margin-bottom: 25px;
     }
 }
 
