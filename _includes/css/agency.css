@@ -936,28 +936,12 @@ body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
 
-.blog .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.blog .post-content {
-    margin-bottom: 25px;
-}
-
-.blog .h2 {
-    font-size: 32px;
-}
-
-.blog .h3 {
-    font-size: 26px;
-}
-
-.blog .h4 {
-    font-size: 20px;
+.canvas-buttons {
+    text-align: center;
 }
