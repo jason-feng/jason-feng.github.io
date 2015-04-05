@@ -11,7 +11,7 @@ insta_secret: 9d904763a2ef4c1eaf7bf1f33ec09ad2
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 1b5609
+  primary: 48763a
   primary-red: df6161
   secondary: 229000
   secondary-red: f28e8e
