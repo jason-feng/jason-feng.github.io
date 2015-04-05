@@ -5,7 +5,7 @@ type: Python Application / Academic Paper
 layout: project
 date: 2015-03-15
 img: determining-restaurant-success/poster.png
-thumbnail: determining-restaurant-success/yelp.png
+thumbnail: determining-restaurant-success/thumbnail.png
 alt: image-alt
 project-date: March 2015
 class: CS74 Machine Learning

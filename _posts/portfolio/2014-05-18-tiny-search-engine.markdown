@@ -5,7 +5,7 @@ type: CLI Application
 layout: project
 date: 2014-05-18
 img: tiny-search-engine/tiny-search-engine.png
-thumbnail: tiny-search-engine/tiny-search-engine.png
+thumbnail: tiny-search-engine/thumbnail.png
 alt: image-alt
 project-date: May 2014
 class: CS50 Software Design and Implementation

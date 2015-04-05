@@ -5,7 +5,7 @@ type: Client-server Application
 layout: project
 date: 2014-05-27
 img: amazing-project/amazing-project.png
-thumbnail: amazing-project/amazing-project.png
+thumbnail: amazing-project/thumbnail.png
 alt: image-alt
 project-date: May 2014
 class: CS50 Software Design and Implementation

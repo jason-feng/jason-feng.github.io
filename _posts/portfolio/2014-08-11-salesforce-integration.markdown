@@ -5,7 +5,7 @@ type: Cross-platform data integration
 layout: project
 date: 2014-08-11
 img: salesforce-integration/sendSMSContact.png
-thumbnail: salesforce-integration/installation.png
+thumbnail: salesforce-integration/thumbnail.png
 alt: image-alt
 project-date: Summer 2014
 client: Waterfall

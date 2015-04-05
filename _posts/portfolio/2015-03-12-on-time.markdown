@@ -5,7 +5,7 @@ type: Android Application
 layout: project
 date: 2015-03-12
 img: on-time/phone.png
-thumbnail: on-time/myevents.png
+thumbnail: on-time/thumbnail.png
 alt: image-alt
 project-date: March 2015
 class: CS65 Smartphone Programming

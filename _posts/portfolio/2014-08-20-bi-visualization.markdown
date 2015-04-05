@@ -1,5 +1,5 @@
 ---
-title: Finance Business Intelligence Visualization
+title: Finance BI Visualization
 subtitle: Interactive Client Financial Data
 type: Data Visualization
 layout: project
