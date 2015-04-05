@@ -286,7 +286,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/baby-animals.gif);
+    /*background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/baby-animals.gif);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -338,6 +338,7 @@ header ul.social-buttons li a {
 }
 
 header .video {
+    z-index: -1;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -939,12 +940,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 img::selection {
