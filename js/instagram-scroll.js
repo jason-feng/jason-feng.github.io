@@ -5,7 +5,7 @@ var feed = new Instafeed({
         sortBy: 'most-liked',
         links: false,
         resolution: 'standard_resolution',
-        template: '<li><a href="{{link}}"><img src="{{image}}" /></a></li>',
+        template: '<li><a href="{{link}}"><img src="{{image}}" class="img-rounded"/></a></li>',
 });
 
 function loadInstagramFeed() {
