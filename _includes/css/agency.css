@@ -873,6 +873,10 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+.modal-img {
+    max-height: 550px;
+}
+
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
