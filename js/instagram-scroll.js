@@ -4,7 +4,7 @@ var feed = new Instafeed({
         accessToken: '12436255.cf0499d.6d24c6488d7444e9bc15e1a472ff51f3',
         sortBy: 'most-liked',
         links: false,
-        // resolution: 'low_resolution',
+        resolution: 'standard_resolution',
         template: '<li><a href="{{link}}"><img src="{{image}}" /></a></li>',
 });
 
