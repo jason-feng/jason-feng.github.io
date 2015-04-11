@@ -250,6 +250,39 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
+@media(min-width:320px) {
+    .navbar-default {
+        padding: 20px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        padding: 20px;
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 0px 0;
+        background-color: #222;
+        height: 60px;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -361,6 +394,48 @@ header .intro-image img {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
+}
+
+/* iPhone 6*/
+/* Portrait*/
+@media (min-width: 320px) {
+
+    header .intro-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-top: 200px;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue",Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 25px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-family: "Droid Serif","Helvetica Neue",Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 22px;
+    }
+
+    header .video {
+        z-index: -1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header .video video {
+        min-width: 100%;
+        min-height: 100%;
+        background-size: cover;
+    }
 }
 
 @media(min-width:768px) {
@@ -630,6 +705,49 @@ section h4.section-subheading {
     font-size: 14px;
 }
 
+@media(min-width:320px) {
+    .timeline:before {
+        left: 0%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: right;
+        width: 100%;
+        padding: 0 0px 0px 0px;
+        text-align: left;
+    }
+
+    .timeline>li .timeline-logo img{
+        width: 40px;
+        margin: auto;
+    }
+
+    .image-large {
+        width: 60px !important;
+    }
+
+    .timeline>li .timeline-image {
+        left: 0%;
+        width: 360px;
+        height: 200px;
+        margin-left: 0px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .timeline>li .timeline-subheading-logo img{
+        margin-top: 5px;
+    }
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 0%;
@@ -642,7 +760,7 @@ section h4.section-subheading {
 
     .timeline>li .timeline-panel {
         float: right;
-        width: 50%;
+        width: 100%;
         padding: 0 0px 0px 0px;
         text-align: left;
     }
@@ -658,8 +776,8 @@ section h4.section-subheading {
 
     .timeline>li .timeline-image {
         left: 0%;
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 175px;
         margin-left: 0px;
     }
 
@@ -668,7 +786,6 @@ section h4.section-subheading {
         font-size: 13px;
         line-height: 18px;
     }
-
 }
 
 @media(min-width:992px) {
@@ -681,13 +798,13 @@ section h4.section-subheading {
         padding: 0 0px 0px 0px;
     }
 
-    .timeline>li .timeline-image {
+    .timeline .timeline-image {
         width: 450px;
         height: 350px;
         margin-left: 0px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline .timeline-image h4 {
         margin-top: 30px;
         font-size: 18px;
         line-height: 26px;
@@ -704,13 +821,13 @@ section h4.section-subheading {
         padding: 0 0px 0px 0px;
     }
 
-    .timeline>li .timeline-image {
+    .timeline .timeline-image {
         width: 560px;
         height: 400px;
         margin-left: 0px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline.timeline-image h4 {
         margin-top: 40px;
     }
 }
