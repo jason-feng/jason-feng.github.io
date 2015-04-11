@@ -37,8 +37,8 @@ Class name automatically added to element */
 .simply-scroll {
         width: 100%;
         height: 350px;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 5em;
+        margin-bottom: -1em;
 }
 
 /* Clip DIV */
@@ -50,8 +50,8 @@ Class name automatically added to element */
 /* Explicitly set height/width of each list item */
 .simply-scroll .simply-scroll-list li {
         float: left; /* Horizontal scroll only */
-        width: 325px;
-        height: 325px;
+        width: 310px;
+        height: 310px;
         margin: auto;
 }
 
