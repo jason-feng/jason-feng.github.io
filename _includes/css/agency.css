@@ -252,7 +252,8 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:320px) {
     .navbar {
-        padding: 0 20px;
+        /*padding: 0 20px;*/
+        margin-right: -20px;
     }
     .navbar-default {
         padding: 20px 0;
