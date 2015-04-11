@@ -405,7 +405,7 @@ header .intro-image img {
 @media (min-width: 320px) {
 
     header .intro-text {
-        padding-top: 50px;
+        padding-top: 25px;
         padding-bottom: 50px;
     }
 
