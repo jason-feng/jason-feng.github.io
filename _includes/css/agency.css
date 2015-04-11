@@ -440,6 +440,14 @@ header .intro-image img {
         min-height: 100%;
         background-size: cover;
     }
+
+    header .intro-text .page-scroll {
+        max-width: 320px;
+    }
+    header .btn-xl {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
 }
 
 @media(min-width:768px) {
