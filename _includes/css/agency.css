@@ -932,12 +932,13 @@ footer {
     text-align: center;
 }
 
-footer span.copyright {
+footer #copyright {
+    margin-top: 5px;
     text-transform: uppercase;
     text-transform: none;
     font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
-    float: left;
+    float: none;
 }
 
 footer ul.quicklinks {
@@ -945,8 +946,8 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: Proxima Nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-    float: right;
+    line-height: 22px;
+    float: none;
 }
 
 ul.social-buttons {
