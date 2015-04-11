@@ -255,6 +255,9 @@ fieldset[disabled] .btn-xl.active {
         padding-right: 0px;
         margin-right: 0px;
     }
+    .navbar-nav {
+        background-color: grey;
+    }
     .navbar-default {
         padding: 20px 0;
         border: 0;
