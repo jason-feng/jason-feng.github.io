@@ -1,0 +1,23 @@
+---
+title: Landmark
+subtitle: Mobile Story Telling
+type: iOS Application
+layout: project
+date: 2015-03-08
+img: landmark/screens.png
+thumbnail: landmark/thumbnail.png
+alt: image-alt
+project-date: March 2015
+category: portfolio
+mockup: http://invis.io/NA2C4EBR4
+customjs:
+        - /js/landmark-pdf.js
+---
+
+### An interactive tour guide that takes you on your next adventure
+
+#### Landmark is a social powered discovery platform, built for both photographers and adventurers alike.
+
+With the sheer amount of content being shared in the world, people encounter more and more difficulties searching for exactly what they are looking for in a moments notice. This is especially true for the travelers and tourists. As people continue to share their travels and explorations through various social media platforms, the amount of clutter on the web continues to be a challenge that needs to be overcome. There lacks a true discovery application built for individuals not only to craft original content around their trips, but also a platform for others to discover their new adventure.
+
+Landmark provides users with the ability to create their own unique photo essays - a combination of text, photo, and video, crafted to showcase the highlights of their most recent adventure. Landmark provides a seamless user interface to browse photo essays and add new locations to list of adventures to come.
