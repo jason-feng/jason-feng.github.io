@@ -330,7 +330,6 @@ header {
     color: #fff;
     background-attachment: scroll;
     background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13));
-    background-image: url("/img/california-city-fog-lr.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -393,6 +392,13 @@ header .video {
 header .video video {
     min-width: 100%;
     min-height: 100%;
+    background-image: url("/img/california-city-fog-lr.jpg");
+    background-position: center bottom;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
