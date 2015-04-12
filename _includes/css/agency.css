@@ -303,6 +303,7 @@ fieldset[disabled] .btn-xl.active {
         background-color: transparent;
     }
     .navbar-default .navbar-brand {
+        padding: 10px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
