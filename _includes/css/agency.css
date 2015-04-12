@@ -329,6 +329,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13));
+    background-image: url("/img/california-city-fog-lr.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

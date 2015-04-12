@@ -2,7 +2,7 @@
   // If absolute URL from the remote server is provided, configure the CORS
   // header on that server.
   //
-  var url = '/img/resume.pdf';
+  var url = '/img/pdfs/resume.pdf';
 
   //
   // Disable workers to avoid yet another cross-origin issue (workers need
