@@ -11,6 +11,7 @@ project-date: Summer 2014
 client: Waterfall
 category: portfolio
 link: http://www.waterfall.com/is/salesforce/
+published: false
 ---
 
 ### Project Goal: Establish a two-way integration between  Salesforce and Waterfall platform to provide Waterfall  functionality independent from the web application

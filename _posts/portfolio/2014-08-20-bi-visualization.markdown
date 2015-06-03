@@ -10,6 +10,7 @@ alt: image-alt
 project-date: Summer 2014
 client: Waterfall
 category: portfolio
+published: false
 ---
 
 ### Project Goal: Provide platform for company to easily access and view trends about client financial data
