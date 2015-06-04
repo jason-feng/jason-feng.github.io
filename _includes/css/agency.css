@@ -1120,3 +1120,8 @@ html, body {
   width: auto !important;
   overflow-x: hidden !important;
 }
+
+.logo {
+  width: 50px;
+  margin-top: -15px;
+}
