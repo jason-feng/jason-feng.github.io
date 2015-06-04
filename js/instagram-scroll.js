@@ -2,7 +2,7 @@ var feed = new Instafeed({
         get: 'user',
         userId: 12436255,
         accessToken: '12436255.cf0499d.6d24c6488d7444e9bc15e1a472ff51f3',
-        sortBy: 'most-liked',
+        sortBy: 'most-recent',
         links: false,
         resolution: 'low_resolution',
         template: '<li><a href="{{link}}"><img src="{{image}}" class="img-rounded"/></a></li>',
@@ -10,7 +10,7 @@ var feed = new Instafeed({
 
 function loadInstagramFeed() {
         feed.run();
-        setTimeout(scrollInstagramFeed, 700);
+        setTimeout(scrollInstagramFeed, 1500);
 }
 
 function scrollInstagramFeed() {
