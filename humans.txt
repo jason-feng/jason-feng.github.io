@@ -1,0 +1,27 @@
+   __     ______     ______     ______     __   __        ______   ______     __   __     ______
+  /\ \   /\  __ \   /\  ___\   /\  __ \   /\ "-.\ \      /\  ___\ /\  ___\   /\ "-.\ \   /\  ___\
+ _\_\ \  \ \  __ \  \ \___  \  \ \ \/\ \  \ \ \-.  \     \ \  __\ \ \  __\   \ \ \-.  \  \ \ \__ \
+/\_____\  \ \_\ \_\  \/\_____\  \ \_____\  \ \_\\"\_\     \ \_\    \ \_____\  \ \_\\"\_\  \ \_____\
+\/_____/   \/_/\/_/   \/_____/   \/_____/   \/_/ \/_/      \/_/     \/_____/   \/_/ \/_/   \/_____/
+
+
+/* ABOUT */
+
+  Developer and Designer: Jason Feng
+  Twitter:      @jasonfeng_
+  Location:     San Francisco, California, United States of America
+
+
+/* SITE */
+
+  Language:     English
+  Built with:   Jekyll <http://jekyllrb.com>
+                Sublime Text 2 <http://www.sublimetext.com>
+                Adobe Creative Suite
+                Grunt <http://gruntjs.com>
+                HTML Compressor <https://code.google.com/p/htmlcompressor>
+
+
+/* SPECIAL THANKS */
+
+  HTML5 Boilerplate <http://html5boilerplate.com>
