@@ -14,3 +14,17 @@ google_analytics: 'UA-XXXXXXXX-X'
 # Details for the RSS feed generator
 url:            'http://jason-feng.com'
 author:         'Jason Feng'
+
+social:
+  - title: envelope
+    url: mailto:jason@jason-feng.com
+  - title: github
+    url: http://github.com/jason-feng
+  - title: linkedin
+    url: https://linkedin.com/in/jasonfeng21
+  - title: twitter
+    url: http://twitter.com/jasonsfeng
+  - title: instagram
+    url: https://instagram.com/jasonfeng_/
+  - title: flickr
+    url: https://flic.kr/ps/2Wz3PN
