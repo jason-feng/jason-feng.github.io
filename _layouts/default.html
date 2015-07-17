@@ -35,6 +35,14 @@
       <section class="poweredby">Made with Jekyll using
         <a href="http://github.com/rosario/kasper">Kasper theme</a>
       </section>
+      <section>
+        <ul class="list-inline social-buttons">
+            {% for network in site.social %}
+            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+            </li>
+            {% endfor %}
+        </ul>
+      </section>
     </footer>
 
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>

@@ -1,11 +1,17 @@
 ul.social-buttons li a {
-    font-size: 24px;
+    font-size: 12px;
 }
 .cover-image {
-  top: 120px;
+  top: 75px;
 }
 @media only screen and (max-width: 500px) {
   ul.social-buttons li a {
-      font-size: 16px;
+      font-size: 1px;
   }
+}
+$a-tags: 'article section a, article section a:active, article section a:hover, article section a:visited';
+
+#{$a-tags} {
+  color: #dd7788;
+  text-decoration: none;
 }
