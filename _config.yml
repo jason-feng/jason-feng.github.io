@@ -1,44 +1,15 @@
-url: http://jason-feng.github.io
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-# Site settings
-title: Jason Feng
-email: jason@jason-feng.com
-description: "The personal website of Jason Feng. Visit here to check out his past work, information, and more!"
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
 
-# Instagram API
-insta_id: 85390d61be354124b6b0e1dda6427bf5
-insta_secret: 9d904763a2ef4c1eaf7bf1f33ec09ad2
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 48763a
-  primary-red: df6161
-  secondary: 96b88b
-  secondary-red: f28e8e
-  secondary-dark: 5c5c5c
-  contact: 6588c5
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: envelope
-    url: mailto:jason@jason-feng.com
-  - title: github
-    url: http://github.com/jason-feng
-  - title: linkedin
-    url: https://linkedin.com/in/jasonfeng21
-  - title: twitter
-    url: http://twitter.com/jasonsfeng
-  - title: instagram
-    url: https://instagram.com/jasonfeng_/
-  - title: flickr
-    url: https://flic.kr/ps/2Wz3PN
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Hinman Box 0160
-  - line: Dartmouth College
-  - line: Hanover, NH 03755
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Your Name'
