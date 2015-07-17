@@ -1,6 +1,12 @@
+Jason Feng Personal Website
+====================
+This is the source for my personal website, which showcases some projects I have worked on along with fun facts about myself.
+
+The website is built using [Jekyll](jekyllrb.com), a ruby based static site generator.
+
 # Kasper
 
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
+This blog is based off of a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll.
 Feel free to fork, change, modify and re-use it.
 
 ## How to use it
@@ -22,8 +28,8 @@ Kasper theme includes:
 ![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
 
 
-## Thanks 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
+## Thanks
+Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll.
 I've also added few things specific to Jekyll and some minor style changes.
 
 ## Copyright & License
