@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Home
+title: About Me
 cover: false
-about: 'about.html'
 logo: 'assets/images/logo.png'
 ---
 
@@ -19,17 +18,47 @@ logo: 'assets/images/logo.png'
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+              <!--   {% if site.description %} {{ site.description }}. {% endif %} -->
             </h2>
+            <ul class="list-inline social-buttons">
+                {% for network in site.social %}
+                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="author-image cover-image">
+                <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                <span class="hidden">{{site.author}}'s Picture</span></a>
+            </div>
         </div>
+
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
+<main class="content" role="main">
+    <article class="post">
+        <!-- <header class="post-header">
+            <a id="blog-logo" href="{{site.baseurl}}">
+                {% if site.logo %}
+                    <img src="{{site.logo}}" alt="{{ site.name }}" />
+                {% else %}
+                    <span class="blog-title">{{ site.name }}</span>
+                {%endif%}
+            </a>
+        </header> -->
+
+        <h1 class="post-title">{{ page.title }}</h1>
+
+        <section class="post-content">
+          I am currently a computer science student at Dartmouth College interested in full stack development. Some other passions of mine include hiking, landscape photography, the Los Angeles Lakers, and Kanye West
+        </section>
+
+    </article>
+
+</main>
 
 <main id="content" class="content" role="main">
-
 
     <div class="extra-pagination inner">
         {% include pagination.html %}
