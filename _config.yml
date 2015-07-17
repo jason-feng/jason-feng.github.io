@@ -12,7 +12,7 @@ domain_name: http://jason-feng.github.io
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'http://jason-feng.com'
+url: http://jason-feng.github.io
 author:         'Jason Feng'
 
 social:
