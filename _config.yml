@@ -5,12 +5,12 @@ meta_description: "Jason Feng's personal website."
 
 markdown: redcarpet
 highlighter: pygments
-logo: false
+logo: true
 paginate: 15
 baseurl: /
 domain_name: 'http://jason-feng.com'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://jason-feng.com'
+author:         'Jason Feng'
