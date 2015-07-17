@@ -1,24 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-11-10 10:18:00
-categories: Thriller Comedy Horror
+title:  "Welcome to my new Website"
+date:   2015-07-16 11:56:00
+categories: Technology
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+After just being extremely tired with maintaining my existing website, I decided to find a new home for my personal blog. Welcome to my new website! It is heavily based off of the [Ghost Casper theme](https://github.com/rosario/kasper).
 
-Jekyll also offers powerful support for code snippets:
+Inspired by blogs such as [Zach Holman](zachholman.com), [Chris Dixon](http://cdixon.org/), and [Ryan Hoover](http://ryanhoover.me/), I wanted to pursue my own website that was more focused on producing content rather than showcasing my past experiences.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Here's to starting off my new blog! ![Excitement gif](http://i.giphy.com/mzTKsByk8Xl6g.gif)
