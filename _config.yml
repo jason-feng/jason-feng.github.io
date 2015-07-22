@@ -9,7 +9,7 @@ logo: true
 paginate: 15
 baseurl: /
 domain_name: http://jason-feng.github.io
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-61173271-1'
 
 # Details for the RSS feed generator
 url: http://jason-feng.github.io
