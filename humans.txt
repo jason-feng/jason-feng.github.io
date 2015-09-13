@@ -8,7 +8,7 @@
 /* ABOUT */
 
   Developer and Designer: Jason Feng
-  Twitter:      @jasonfeng_
+  Twitter:      @jasonsfeng
   Location:     San Francisco, California, United States of America
 
 
