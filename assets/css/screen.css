@@ -1119,7 +1119,7 @@ body:not(.post-template) .post-title {
     height: 80px;
     border-radius: 100%;
     overflow: hidden;
-    padding: 6px;
+    padding: 2px;
     background: #fff;
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
