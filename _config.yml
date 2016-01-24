@@ -26,3 +26,5 @@ social:
     url: http://twitter.com/jasonsfeng
   - title: instagram
     url: https://instagram.com/jasonfeng_/
+
+gems: [jekyll-paginate]
