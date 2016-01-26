@@ -1,19 +1,19 @@
 name: Jason Feng
-email: jason@jason-feng.com
-description: "Jason Feng's personal website"
-meta_description: "Jason Feng's personal website."
+email: jason@jasonfeng.com
+description: "A series of blog posts written by Jason Feng"
 
 markdown: redcarpet
 highlighter: pygments
 logo: true
 paginate: 15
+language: 'en-us'
 baseurl: /
 domain_name: http://jason-feng.github.io
 google_analytics: 'UA-61173271-1'
 
 # Details for the RSS feed generator
-url: http://jason-feng.github.io
-author:         'Jason Feng'
+url: http://jasonfeng.com
+author: 'Jason Feng'
 
 social:
   - title: envelope
