@@ -2,7 +2,7 @@ name: Jason Feng
 email: jason@jasonfeng.com
 description: "A series of blog posts written by Jason Feng"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: true
 paginate: 15
