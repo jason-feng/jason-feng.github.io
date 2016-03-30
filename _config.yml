@@ -3,7 +3,7 @@ email: jason@jasonfeng.com
 description: "A series of blog posts written by Jason Feng"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: true
 paginate: 15
 language: 'en-us'
