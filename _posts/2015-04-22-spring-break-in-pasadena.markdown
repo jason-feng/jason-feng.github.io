@@ -5,7 +5,7 @@ date:   2015-04-22 9:29:00
 categories: adventures reflection
 ---
 
-Wow so this is one of first blog posts in a really long time. There used to be a period of time a la high school when I used to right these. Or more accurately, when I tried to get myself to get into writing personal posts. This is probably attempt #5 to start again, we'll see how this one goes.
+Wow so this is one of first blog posts in a really long time. There used to be a period of time a la high school when I used to write these. Or more accurately, when I tried to get myself to get into writing personal posts. This is probably attempt #5 to start again, we'll see how this one goes.
 
 During my most recent spring break, myself, along with two friends took a trip down to LA. Before we even started there was some already unnecessary drama created. Because of a mistake on my behalf... we ended up leaving for the airport approximately 40 minutes before our flight. Even my dad had no faith that we would make our flight. But to our surprise, the airport was pretty much completely empty and the security had no lines at all. Although I had to give up my giant bottle of sunscreen at security (who thought sunscreen was a liquid, it's SQUEEZEABLE), the trip was off to an exhilarating start as we sprinted down the airport looking for our boarding gate. We made it just on time, there was even another lady that boarded 10 minutes after us - clearly this was not my fault at all.
 
