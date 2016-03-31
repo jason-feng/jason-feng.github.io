@@ -33,7 +33,6 @@
         };
 
     $document.ready(function () {
-
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
@@ -59,6 +58,13 @@
 
         $(".scroll-down").arctic_scroll();
 
+        $.expr[':'].external = function(obj){
+            return !obj.href.match(/^mailto\:/)
+                   && (obj.hostname != location.hostname)
+                   && !obj.href.match(/^javascript\:/)
+                   && !obj.href.match(/^$/)
+            };
+        $('a:external').attr('target', '_blank');
     });
 
     // smartresize
@@ -95,4 +101,5 @@
         });
 
     };
+
 })(jQuery, 'smartresize');
