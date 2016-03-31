@@ -1,5 +1,11 @@
+.social-buttons {
+    text-align: center;
+}
+
 ul.social-buttons li a {
-    font-size: 12px;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .cover-image {
   top: 75px;
@@ -9,6 +15,7 @@ ul.social-buttons li a {
       font-size: 1px;
   }
 }
+
 $a-tags: 'article section a, article section a:active, article section a:hover, article section a:visited';
 
 #{$a-tags} {

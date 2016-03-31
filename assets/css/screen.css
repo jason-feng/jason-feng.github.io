@@ -1298,7 +1298,6 @@ body:not(.post-template) .post-title {
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
-    line-height: 1.75em;
     color: #BBC7CC;
 }
 
@@ -1314,16 +1313,17 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 45%;
+    width: 25%;
     float: right;
     text-align: right;
 }
 
 .copyright {
     display: block;
-    width: 45%;
+    width: 25%;
     float: left;
 }
+
 
 
 /* ==========================================================================
