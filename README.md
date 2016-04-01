@@ -24,8 +24,8 @@ Kasper theme includes:
 
 ## Screenshots
 
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+![index page](https://raw.github.com/rosario/kasper/master/assets/img/kasper-theme-index.png)
+![post page](https://raw.github.com/rosario/kasper/master/assets/img/kasper-theme-post.png)
 
 
 ## Thanks

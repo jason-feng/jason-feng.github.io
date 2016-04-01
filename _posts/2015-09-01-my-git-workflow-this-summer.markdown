@@ -70,7 +70,7 @@ Once you properly understand and learn how to utilize Git, you will understand i
 
     Then git will provide you with the following GUI:
 
-    ![Rebase](/assets/images/git-blog-post/rebase.png)
+    ![Rebase](/assets/img/git-blog-post/rebase.png)
 
     Using squash, one can squash together multiple commits that are edits of one another. This is especially useful when implementing feedback from others.
 
@@ -78,7 +78,7 @@ Once you properly understand and learn how to utilize Git, you will understand i
 
     Finally you can even use edit for quick and small modifications of commits.
 
-    ![Squash](/assets/images/git-blog-post/squash.png)
+    ![Squash](/assets/img/git-blog-post/squash.png)
 
     Above is an example of what happens when you squash together two commits. Git will ask you to modify the new commit message. It automatically includes the messages from both commits. Simply save and quit and your commits will now be modified.
 

@@ -6,7 +6,7 @@ categories: thoughts
 ---
 I spent this past semester abroad studying at the beautiful [University of Edinburgh](http://www.ed.ac.uk/). One of the biggest chances for me was adjusting to the British education system.
 
-![Edinburgh](/assets/images/education-blog-post/calton-hill.jpg)
+![Edinburgh](/assets/img/education-blog-post/calton-hill.jpg)
 
 While the US education system is based off a concept of continuous assessment through daily or weekly assignments and a combination of midterms and finals where your grade for the course is dependent of a combination of your performance on smaller assignments, larger projects, class participation, and grades on your midterms and final examinations. As a result, if you want to achieve high marks in a collegiate level course in the US, you have to have high performance throughout the semester. It is not enough to do really well up until the final, and then to do poorly then. In constrast, this also gives you the ability to recover from a poor grade on an assignment, becuase you can make up for that in future assignments and tests.
 
