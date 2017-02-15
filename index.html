@@ -1,152 +1,28 @@
----
-layout: default
-cover: 'assets/img/norway.jpg'
-logo: 'assets/img/logo.png'
----
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo fixed" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <a class="subscribe-button icon-link" href="{{ site.baseurl }}resume.pdf">Resume</a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-              <!--   {% if site.description %} {{ site.description }}. {% endif %} -->
-            </h2>
-            <div class="author-image cover-image">
-                <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/img/profile.jpg)">
-                <span class="hidden">{{site.author}}'s Picture</span></a>
-            </div>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="homepage">
+          <p>Hi! I'm Jason Feng</p>
+          <p>I am a </p>
         </div>
 
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#aboutme" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
-
-<main id="aboutme" class="content" role="main">
-    <article class="post">
-        <!-- <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%}
-            </a>
-        </header> -->
-
-        <h1 class="post-title">About Me</h1>
-
-        <section class="post-content">
-          I'm Jason Feng, a computer science student at Dartmouth College.
-          Currently I am a developer in the <a href="http://dali.dartmouth.edu">DALI Lab</a>.
-          In the past I have worked at <a href="http://linkedin.com">LinkedIn</a>, <a href="http://doordash.com">DoorDash</a>.
-          <a href="http://hearsaysocial.com">Hearsay Social</a>, and <a href="http://waterfall.com">Waterfall</a>.
-          <br><br>
-          Some of my favorite things to do include watching <a href="https://www.youtube.com/watch?v=itIvUYr5UZI">
-          Kobe Bryant's world class talent</a>, listening to anything <a href="http://tidal.com/album/57273408">
-          Kanye West</a>, and going outdoors on awesome adventures. Most recently -
-          <a href="https://en.wikipedia.org/wiki/Lost_Coast">the Lost Coast</a>.
-          <br><br>
-          I can be found on <a href="https://github.com/jason-feng">Github</a>,
-          <a href="https://twitter.com/jasonsfeng">Twitter</a>,
-          and <a href="https://instagram.com/jasonfeng_/">Instagram</a>.
-          Or, feel free to contact me at <a href="mailto:jason@jasonfeng.com" target="_top">my email.</a>
-        </section>
-
-    </article>
-
-</main>
-
-<main id="projects" class="project" role="main">
-    <article class="post">
-        <h1 class="post-title">Projects</h1>
-        <div class="fill">
-            <div id="myCarousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="active item">
-                  <div class="fill" onclick="location.href='http://jasonfeng.com/wikivisual'" style="background-image:url('assets/img/projects/wikivisual.jpg');">
-                    <div class="container">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="fill" onclick="location.href='http://github.com/jason-feng/ontime'" style="background-image:url('assets/img/projects/ontime-cover.jpg');">
-                    <div class="container">
-
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="fill" onclick="location.href='https://github.com/ritmatter/neural_net'" style="background-image:url('assets/img/projects/restaurant.jpg');">
-                    <div class="container">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="pull-center">
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
-              </div>
-            </div>
-        </div>
-    </article>
-</main>
-
-<main id="content" class="content" role="main">
-
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
-    {% for post in paginator.posts %}
-
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="/assets/img/profile.jpg" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
-            {% if post.categories.size > 0 %}
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time>
-        </footer>
-    </article>
-
-    <!-- Capser below -->
-<!--     <article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-    </article> -->
-    <!--  -->
-
-    {% endfor %}
-
-    {% include pagination.html %}
-
-</main>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
