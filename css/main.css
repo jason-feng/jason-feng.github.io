@@ -80,6 +80,10 @@ a:focus::after {
   padding-top: 25px;
 }
 
+.homepage a {
+  color: #F5F5F5;
+}
+
 .homepage p,
 .homepage div {
   padding-top: 5px;
