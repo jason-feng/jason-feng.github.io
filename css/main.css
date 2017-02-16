@@ -46,20 +46,23 @@ a:focus::after {
   flex-direction: row;
 }
 
+.heading {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .homepage {
   font-weight: bold;
   font-size: 48px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .homepage p,
 .homepage div {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 0px;
 }
 
@@ -68,8 +71,8 @@ a:focus::after {
 }
 
 .what-am-i div {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 25px;
 }
 
@@ -120,8 +123,6 @@ a:focus::after {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  margin-left: 10%;
-  margin-right: 10%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
