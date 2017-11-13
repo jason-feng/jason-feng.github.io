@@ -51,6 +51,8 @@ a:focus::after {
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
+  background: url('/sf-fog.gif');
+  background-size: cover;
 }
 
 .page img {
