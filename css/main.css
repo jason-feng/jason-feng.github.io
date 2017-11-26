@@ -1,45 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   margin: 0;
 }
 
-/* Effect 3: bottom line slides/fades in */
 a {
-	padding: 8px 0;
   outline: none;
-  color: #95A5E6;
+  color: #fffaac;
   text-decoration: none;
-}
-
-a:hover,
-a:focus {
-	outline: none;
-}
-
-a::after {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 4px;
-	background: rgba(0,0,0,0.1);
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
-}
-
-a:hover::after,
-a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
 }
 
 .row {
@@ -47,11 +18,21 @@ a:focus::after {
   flex-direction: row;
 }
 
+.site-title {
+  text-align: center;
+  font-size: 66px;
+  font-family: "Pacifico";
+  margin: 0 0 50px 0;
+  padding-bottom: 50px;
+  position: relative;
+  align-self: center;
+}
+
 .page {
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
-  background: url('/sf-fog.gif');
+  background-color: #7db7d3;
   background-size: cover;
 }
 
@@ -68,7 +49,7 @@ a:focus::after {
 }
 
 .heading {
-  color: #F5F5F5;
+  color: #f5f5f5;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -83,7 +64,7 @@ a:focus::after {
 }
 
 .homepage a {
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .homepage p,
@@ -104,46 +85,64 @@ a:focus::after {
 }
 
 .roles span:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    -ms-animation-delay: 0s;
-    animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .roles span:nth-child(2) {
-    -webkit-animation-delay: 4s;
-    -ms-animation-delay: 4s;
-    animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .roles span:nth-child(3) {
-    -webkit-animation-delay: 8s;
-    -ms-animation-delay: 8s;
-    animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 .roles span:nth-child(4) {
-    -webkit-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
 }
 
 .roles span {
-    position: absolute;
-    opacity: 0;
-    overflow: hidden;
-    -webkit-animation: animateRole 16s linear infinite 0s;
-    -ms-animation: animateRole 16s linear infinite 0s;
-    animation: animateRole 16s linear infinite 0s;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: animateRole 16s linear infinite 0s;
+  -ms-animation: animateRole 16s linear infinite 0s;
+  animation: animateRole 16s linear infinite 0s;
 }
 
 @-webkit-keyframes animateRole {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .current-things {
@@ -169,9 +168,37 @@ a:focus::after {
 }
 
 .thing-subheader {
-  color: #95A5E6;
+  color: #fffaac;
 }
 
 .fa {
-  color: #95A5E6;
+  color: #fffaac;
+}
+
+/* Link hover effect */
+
+.hover > a {
+  position: relative;
+}
+
+.hover > a:before {
+  content: "";
+  align-self: center;
+  width: 60%;
+  margin-left: 20%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #78dfc5;
+  visibility: visible;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.25s linear;
+}
+
+.hover > a:hover:before,
+.hover > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
 }
